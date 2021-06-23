@@ -15,28 +15,43 @@
         background-size:1920px 1080px;
         background-attachment: fixed;
 
-        /*background-image:url('grid-3227459_1920.jpg');
-        background-size:100%;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        height:100%;*/
+
     }
+    .typewriter h1 {
+        margin-top: 10px;
+        font-size: 100px;
+        font-family:"Lucinda Console", monospace;/* Web-safe typewriter-like font */
+        overflow: hidden;/* Ensures the content is not revealed until the animation */
+        border-right: .1em solid rgba(0, 0, 0, 0);/* The typewriter cursor */
+        white-space: nowrap;/* Keeps the content on a single line */
+        margin: 0 auto;/* Gives that scrolling effect as the typing happens */
+        letter-spacing: 0px;/* Adjust as needed */
+        animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+      }
+      /* The typing effect*/ 
+      @keyframes typing {
+        from {
+          width: 0
+        }
+        to {
+          width: 100%
+        }
+      }
+
     .introText1{
-        color:rgb(84, 84, 87);
+        color:rgb(0, 0, 0);
         font-size:100px;
         font-family:"Lucinda Console", monospace;
         margin-left: 0px;
-        text-shadow: rgb(38, 57, 77) 0px 20px 30px -10px
-        ;
+        text-shadow: 10px 20px 10px slategrey;
 
         
     }
     .TopBar{
         height: 100px;
         max-width: 100%;
-        background-color: grey;
-        border-radius: 30px;
+        background-color: rgba(112, 128, 144, 0.5);
+       /* border-radius: 30px;*/
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
         /*border-bottom-left-radius: 10px;
@@ -49,10 +64,10 @@
         padding-left: 0%;
         height:600px; 
         width:530px; 
-        background-color: grey;
+        background-color: rgba(128, 128, 128, 0.5);
         margin-top: 50px;
-        border-radius: 30px;
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+       /* border-radius: 30px;*/
+        box-shadow: rgb(38, 57, 77) 5px 20px 30px 0px;
 
     }
 
@@ -68,35 +83,27 @@
             </div>
             <div class="row">
                 <div class="col-lg-7 col-xs-7">
-                    <h1 class="introText1">
-                    Adriaan Grobler
-                    </h1>
-                    <div style="margin-top: 50px; height: 400px; width: 700px; background-color: rgb(84,176,255); border-radius: 30px; box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                    <div class="typewriter">
+                        <h1 >
+                            Adriaan Grobler
+                        </h1>
+                    </div>
+                    
+                    <div style="margin-top: 50px; height: 400px; width: 700px; border-radius:30px; background-color: rgb(84, 175, 255) ; box-shadow: rgb(38, 57, 77) 5px 20px 30px -10px;">
                         
                     </div>
-                    <!--<p >
-                        this is a test paragraph
-                    </p>
-                    <p >
-                        this is a test paragraph
-                    </p>
-                    <p >
-                        this is a test paragraph
-                    </p>
-                    <p >
-                        die is n sin
-                    </p>-->
+
                 </div>
 
                 <div class="col-lg-5 col-xs-5 contain1 " > 
                     <div style="padding-left: 20px;">
-                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oKWBCw_OidPBbgI-Gae3bwHaE8%26pid%3DApi&f=1" style="height: 330px; margin-top:20px; border-style: solid; border-color:rgb(84,176,255); border-width: 2px;  " class="img-fluid" ></img>
-                        <p style="color: rgb(2, 2, 2); font-size: large;"> this paragraph introduces</p>
-                        <p style="color: rgb(2, 2, 2);"> this paragraph introduces</p>
-                        <p style="color: rgb(2, 2, 2);"> this paragraph introduces</p>
-                        <p style="color: rgb(2, 2, 2);"> this paragraph introduces</p>
-                        <p style="color: rgb(2, 2, 2);"> this paragraph introduces</p>
-                        <p style="color: rgb(2, 2, 2);"> this paragraph introduces</p>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oKWBCw_OidPBbgI-Gae3bwHaE8%26pid%3DApi&f=1" style="height: 330px; margin-top:20px; border-style: solid; border-color:rgb(84,176,255); border-width: 4px;  " class="img-fluid" ></img>
+                        <p style="color: white; font-size: large;"> this paragraph introduces</p>
+                        <p style="color: white;"> this paragraph introduces</p>
+                        <p style="color: white;"> this paragraph introduces</p>
+                        <p style="color: white;"> this paragraph introduces</p>
+                        <p style="color: white;"> this paragraph introduces</p>
+                        <p style="color: white;"> this paragraph introduces</p>
 
                     </div> 
                 </div>
